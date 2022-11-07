@@ -15,6 +15,7 @@ export class AppComponent {
     { name: 'Marketing', key: 'M' },
     { name: 'Production', key: 'P' },
     { name: 'Research', key: 'R' },
+    { name: 'Administration', key: 'Adm' },
   ];
 
   checked: boolean = false;
