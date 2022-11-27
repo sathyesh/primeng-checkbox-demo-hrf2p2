@@ -11,7 +11,7 @@ export class AppComponent {
   selectedCategories: any[] = [];
 
   categories: any[] = [
-    { name: 'Accounting', key: 'A' },
+    { name: 'Accounting', key: 'A', disabled: true },
     { name: 'Marketing', key: 'M' },
     { name: 'Production', key: 'P' },
     { name: 'Research', key: 'R' },
@@ -21,6 +21,6 @@ export class AppComponent {
   checked: boolean = false;
 
   ngOnInit() {
-    // this.selectedCategories = this.categories.slice(1,3);
+    this.selectedCategories = this.categories.slice(1, 3);
   }
 }

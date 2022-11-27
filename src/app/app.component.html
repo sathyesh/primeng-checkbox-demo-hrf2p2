@@ -48,7 +48,7 @@
     [value]="category"
     [(ngModel)]="selectedCategories"
     [inputId]="category.key"
-    [disabled]="category.key === 'R'"
+    [disabled]="category.disabled"
   ></p-checkbox>
   <label [for]="category.key">{{ category.name }}</label>
 </div>
